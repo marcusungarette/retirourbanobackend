@@ -26,6 +26,12 @@
     "no-console": 0,
     "prettier/prettier": "error",
     "class-methods-use-this": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "argsIgnorePattern": "_"
+      }
+    ],
     "import/extensions": [
       "error",
       "ignorePackages",
