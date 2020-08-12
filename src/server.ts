@@ -33,4 +33,6 @@ app.use((err: Error, request: Request, response: Response, _: NextFunction) => {
   });
 });
 
-app.listen(port, () => console.log(`Listening at http://localhost:${port}`));
+app.listen(port, () =>
+  console.log(`Retiro Urbano listening at http://localhost:${port}`),
+);
