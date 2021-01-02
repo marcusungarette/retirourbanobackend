@@ -1,4 +1,6 @@
 .vscode/
+coverage.data
+coverage/
 node_modules/
 ### Ignore config with upload images exception
 /src/config/*
